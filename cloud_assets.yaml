@@ -7,3 +7,12 @@ servers:
  
 network:
 subnet: 10.10.0.0/24
+
+domains:
+- portals.varonis.com
+- vpns.varonis.com
+- api.varonis.com
+
+cloud_accounts:
+- production
+- disaster-recovery
