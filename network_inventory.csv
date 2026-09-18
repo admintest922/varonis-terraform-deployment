@@ -1,0 +1,5 @@
+AssetName,IP,Owner,Environment
+VPN-Gateway-01,203.0.113.10,Infrastructure,Production
+FW-Primary-01,203.0.113.11,Networking,Production
+WEB-PROD-01,192.0.2.20,Web Team,Production
+SQL-PROD-01,198.51.100.10,Database Team,Production
