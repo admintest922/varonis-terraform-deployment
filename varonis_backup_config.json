@@ -1,4 +1,17 @@
-"environment": "varonis_production",
-"backupTarget": "s3://company-backups",
-"retentionDays": 30
+{
+"environment": "varonis production",
+"backupJobs": [
+{
+"name": "daily-file-backup",
+"schedule": "0 2 * * *",
+"destination": "s3://corp-prod-backups"
+},
+{
+"name": "weekly-database-backup",
+"schedule": "0 1 * * 0",
+"destination": "s3://varonis-corp-db-backups"
+}
+],
+"retentionDays": 90,
+"notificationEmail": "backup-logging-alerts@varonis.com"
 }
