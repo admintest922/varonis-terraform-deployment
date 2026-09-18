@@ -1,0 +1,9 @@
+servers:
+- varonis-us-web-prod-01
+- varonis-eu-web-prod-02
+- varonis-us-sql-prod-01
+- varonis-eu-sql-prod-02
+- varonis-us-dc-prod-01
+ 
+network:
+subnet: 10.10.0.0/24
