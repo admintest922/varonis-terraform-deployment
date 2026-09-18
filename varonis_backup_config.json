@@ -1,0 +1,4 @@
+"environment": "varonis_production",
+"backupTarget": "s3://company-backups",
+"retentionDays": 30
+}
